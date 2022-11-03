@@ -8,7 +8,7 @@ campus_red
 群1077223830
 *******************************
 [rewrite_local]
-^http[s]?:\/\/wecard.qq.com\/kong\/fr\/health-report\/mnp\/v1\/syncapi\/get-health-info url script-response-body https://raw.githubusercontent.com/Jchim1102/Quantumult-X/main/red_campus_72.js
+^http[s]?:\/\/wecard.qq.com\/kong\/fr\/health-report\/mnp\/v1\/syncapi\/get-health-info url script-response-body https://raw.githubusercontent.com/Jchim1102/Quantumult-X/main/red_campus_7days.js
 [mitm] 
 hostname = *.qq.*
 *******************************/
