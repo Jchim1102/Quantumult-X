@@ -13,6 +13,6 @@ campus_red
 hostname = *.qq.*
 *******************************/
 var obj = JSON.parse($response.body);
-    obj.status = 2;
+obj.status = 2;
 obj.hsjg.type = 4;
-    $done({body: JSON.stringify(obj)});
+$done({body: JSON.stringify(obj)});
