@@ -15,7 +15,7 @@ hostname = *.qq.*
 Surge
 
 [Script]
-^http[s]?:\/\/wecard.qq.com\/kong\/fr\/health-report\/mnp\/v1\/syncapi\/get-health-info.+$ requires-body=1,max-size=0,script-path=qq.js
+^http[s]?:\/\/wecard.qq.com\/kong\/fr\/health-report\/mnp\/v1\/syncapi\/get-health-info.+$ requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Jchim1102/Quantumult-X/main/red_campus
 
 [MITM]
 hostname = *.qq.*
