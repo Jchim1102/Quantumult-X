@@ -11,15 +11,6 @@ campus_red
 ^http[s]?:\/\/wecard.qq.com\/kong\/fr\/health-report\/mnp\/v1\/syncapi\/get-health-info.+$ url script-response-body https://raw.githubusercontent.com/Jchim1102/Quantumult-X/main/red_campus
 [mitm] 
 hostname = *.qq.*
-*******************************
-Surge
-
-[Script]
-^http[s]?:\/\/wecard.qq.com\/kong\/fr\/health-report\/mnp\/v1\/syncapi\/get-health-info.+$ requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Jchim1102/Quantumult-X/main/red_campus
-
-[MITM]
-hostname = *.qq.*
-
 *******************************/
 var obj = JSON.parse($response.body);
     obj.status = 2;
