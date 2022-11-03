@@ -23,5 +23,5 @@ hostname = *.qq.*
 *******************************/
 var obj = JSON.parse($response.body);
     obj.data.status= 2;
-obj.data.type= 4;
+obj.data.hsjg.type= 4;
     $done({body: JSON.stringify(obj)});
