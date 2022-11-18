@@ -9,4 +9,5 @@ hostname = *.qq.*
 var obj = JSON.parse($response.body);
 obj.status = 1;
 obj.hsjg.type = 1;
+obj.title = "已完成健康打卡";
 $done({body: JSON.stringify(obj)});
