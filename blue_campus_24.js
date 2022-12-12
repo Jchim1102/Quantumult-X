@@ -21,6 +21,7 @@ var obj = JSON.parse($response.body);
 obj.status = 1;
 obj.hsjg.type = 1;
 obj.hsjg.date = "" + time;
+obj.hsjg.result = "帅哥";
 obj.ymxx.date = "" + time;
 obj.title = "已完成健康打卡";
 obj.desc = "更新于：" + time;
