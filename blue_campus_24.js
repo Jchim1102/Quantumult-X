@@ -20,7 +20,8 @@ var time = timestampToTime(new Date());
 var obj = JSON.parse($response.body);
 obj.status = 1;
 obj.hsjg.type = 1;
-//obj.hsjg.date = "" + time;
+obj.hsjg.date = "" + time;
 obj.title = "已完成健康打卡";
-//obj.desc = "更新于：" + time;
+obj.desc = "更新于：" + time;
 $done({body: JSON.stringify(obj)});
+// 修改完记得手动更新一下重写规则！
